@@ -1,6 +1,7 @@
 id: 6i544mxokp7mray3p56fwzevw3vakjgtaccuovbm5etb8rkn
 name: zstd
 main: src/lib.zig
+license: MIT
 dependencies:
 - type: git
   path: https://github.com/facebook/zstd
