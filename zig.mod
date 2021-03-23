@@ -3,9 +3,7 @@ name: zstd
 main: src/lib.zig
 license: MIT
 dependencies:
-- type: git
-  path: https://github.com/facebook/zstd
-  version: tag-v1.4.5
+- src: git https://github.com/facebook/zstd tag-v1.4.5
   c_include_dirs:
     - lib
     - lib/common
@@ -60,5 +58,5 @@ dependencies:
     - zlibWrapper/gzwrite.c
     - zlibWrapper/gzread.c
     - zlibWrapper/gzlib.c
-- type: git
-  path: https://github.com/nektro/zig-zlib
+
+- src: git https://github.com/nektro/zig-zlib
