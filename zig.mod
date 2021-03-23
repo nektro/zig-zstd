@@ -3,7 +3,7 @@ name: zstd
 main: src/lib.zig
 license: MIT
 dependencies:
-- src: git https://github.com/facebook/zstd tag-v1.4.5
+- src: git https://github.com/facebook/zstd tag-v1.4.7
   c_include_dirs:
     - lib
     - lib/common
