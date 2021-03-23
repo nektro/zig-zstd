@@ -23,6 +23,7 @@ dependencies:
     - lib/common/threading.c
     - lib/common/xxhash.c
     - lib/common/zstd_common.c
+    - lib/common/zstd_trace.c
     - lib/compress/fse_compress.c
     - lib/compress/hist.c
     - lib/compress/huf_compress.c
