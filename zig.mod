@@ -13,6 +13,7 @@ dependencies:
     - lib/deprecated
     - lib/dictBuilder
     - zlibWrapper
+  # $ find .zigmod/deps/v/git/github.com/facebook/zstd/tag-{version} | grep \\.c$ | grep -e /lib/ -e /zlibWrapper/ | sort
   c_source_files:
     - lib/common/debug.c
     - lib/common/entropy_common.c
