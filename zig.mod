@@ -3,7 +3,7 @@ name: zstd
 main: src/lib.zig
 license: MIT
 dependencies:
-- src: git https://github.com/facebook/zstd tag-v1.4.9
+- src: git https://github.com/facebook/zstd tag-v1.5.0
   license: BSD-3-Clause
   c_include_dirs:
     - lib
@@ -24,7 +24,6 @@ dependencies:
     - lib/common/threading.c
     - lib/common/xxhash.c
     - lib/common/zstd_common.c
-    - lib/common/zstd_trace.c
     - lib/compress/fse_compress.c
     - lib/compress/hist.c
     - lib/compress/huf_compress.c
