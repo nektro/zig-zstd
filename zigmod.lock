@@ -1,0 +1,4 @@
+2
+git https://github.com/facebook/zstd tag-v1.5.0
+git https://github.com/nektro/zig-zlib commit-bd999c8
+git https://github.com/madler/zlib tag-v1.2.11
