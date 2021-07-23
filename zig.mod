@@ -14,6 +14,8 @@ dependencies:
     - lib/deprecated
     - lib/dictBuilder
     - zlibWrapper
+  c_source_flags:
+    - -DZSTD_MULTITHREAD
   # $ find .zigmod/deps/v/git/github.com/facebook/zstd/tag-{version} | grep \\.c$ | grep -e /lib/ -e /zlibWrapper/ | sort
   c_source_files:
     - lib/common/debug.c
