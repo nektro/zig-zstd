@@ -60,5 +60,7 @@ dependencies:
     - zlibWrapper/gzread.c
     - zlibWrapper/gzwrite.c
     - zlibWrapper/zstd_zlibwrapper.c
+  c_source_flags:
+    - -DZSTD_MULTITHREAD
 
 - src: git https://github.com/nektro/zig-zlib
